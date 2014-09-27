@@ -1,0 +1,73 @@
+ svg {
+  font: 10px sans-serif;
+  color: white;
+}
+body{
+  background-color: #FAFAFE;
+}
+p{
+  color:purple;
+  text-align:center;
+}
+.background path{
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.foreground path{
+  fill: none;
+  stroke: Tomato;
+  stroke-opacity: .5;
+  cursor: pointer;
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+  cursor: pointer;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff;
+  cursor: pointer;
+  stroke-opacity: .7;
+}
+#vis{
+  position:relative;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}#pc{
+  position:relative;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.grid .tick {
+    stroke: "lightgrey";
+    opacity: 0.7;
+}
+.grid path {
+      stroke-width: 0;
+}
+h1 {
+  text-align:center;
+  color:#4B0082;
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  
+
+
+
+}
+#headtitle{
+
+}
+#radiodiv{
+  padding-left:25px;
+}
+

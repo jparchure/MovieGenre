@@ -1,0 +1,59 @@
+<!--<html>
+<link href="bootstrap-switch.css" rel="stylesheet">
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link href="bootstrap.css" rel="stylesheet">
+<script src="bootstrap-switch.js"></script>
+     <script src="bootstrap.js"></script>
+<input type="checkbox">
+<script>
+  $('input:checkbox').bootstrapSwitch('size', 'small');
+</script>
+</html>
+
+!-->
+<html>
+<link href="bootstrap-switch.css" rel="stylesheet">
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link href="bootstrap.css" rel="stylesheet">
+<script src="bootstrap-switch.js"></script>
+     <script src="bootstrap.js"></script>
+     <script>
+
+// Resets to the regular style
+//$('#dimension-switch').bootstrapSwitch('size', '');
+// Sets a mini switch
+//$('#dimension-switch').bootstrapSwitch('size', 'mini');
+// Sets a small switch
+//$('#dimension-switch').bootstrapSwitch('size', 'small');
+// Sets a large switch
+ $(document).ready(function() {
+            $('#dimension-switch').bootstrapSwitch('size', 'mini');
+//$('#dimension-switch').bootstrapSwitch('size', 'large');
+})</script>
+<div class="make-switch switch-large">
+<input type="checkbox" checked>
+</div>
+<div class="make-switch">
+<input type="checkbox" checked>
+</div>
+<div class="make-switch switch-small">
+<input type="checkbox" checked>
+</div>
+<div class="make-switch switch-mini">
+<input type="checkbox" checked>
+</div>
+<br>
+<br>
+<span>Dimensions can be changed too:</span>
+<div id="dimension-switch" class="make-switch">
+<input type="checkbox" checked>
+</div>
+<br/>
+<br/>
+<button id="btn-size-large-switch" class="btn">Large</button>
+<button id="btn-size-regular-switch" class="btn">Regular</button>
+<button id="btn-size-small-switch" class="btn">Small</button>
+<button id="btn-size-mini-switch" class="btn">Mini</button>
+</div>
+</html>
+ 
